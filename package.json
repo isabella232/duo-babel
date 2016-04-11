@@ -1,26 +1,28 @@
 {
-  "name": "duo-babel",
-  "description": "Turn ES6 code into readable vanilla ES5 with source maps using Duo",
-  "version": "6.0.0",
+  "name": "@segment/duo-babel",
+  "description": "Segment fork of duo-babel",
+  "version": "0.0.1",
   "keywords": [
     "es6",
     "ecma",
     "duo",
     "transpile"
   ],
-  "author": "Henrik Kjelsberg <henrik.kjelsberg@bdo.no>",
-  "repository": "babel/duo-babel",
+  "author": "Dominic Barnes <dominic@segment.com>",
+  "repository": "segmentio/duo-babel",
   "scripts": {
     "test": "mocha --harmony"
   },
   "dependencies": {
-    "babel-core": "^5.2.16",
-    "debug": "^2.2.0",
-    "extend": "^2.0.0"
+    "babel-core": "^6.7.6",
+    "debug": "^2.2.0"
   },
   "devDependencies": {
+    "babel-plugin-syntax-jsx": "^6.1.18",
+    "babel-plugin-transform-react-jsx": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
     "convert-source-map": "^1.0.0",
-    "duo": "^0.13.2",
+    "duo": "^0.15.5",
     "mocha": "^2.2.4",
     "rimraf": "^2.4.1"
   }
